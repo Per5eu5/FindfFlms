@@ -4,6 +4,36 @@
 html, body { height: 100%; }
 body { font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+.mat-card-header-text {
+  margin: 0 !important;
+}
+
+#title-image {
+  display: inline-block;
+}
+
+.detail-items-group {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 5px;
+  width: 70%;
+}
+
+.detail-item {
+  font-size: 1.5em;
+  margin-bottom: 2px;
+  word-wrap: normal;
+}
+
+.mat-card-header {
+  display: block !important;
+  width: fit-content;
+}
+
+.mat-card-content {
+  display: inline-block !important;
+}
+
 .mat-card {
   margin-bottom: 3px !important;
 }
