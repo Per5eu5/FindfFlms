@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+html, body { height: 100%; }
+body { font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-card {
+  margin-bottom: 3px !important;
+}
+
+.mat-stroked-button {
+  margin-left: 5px !important;
+}
+
+.mat-card-actions {
+  text-align: right;
+  padding-right: 8px !important;
+}
+
+.mat-card-lg-image {
+  width: auto !important;
+}
+
+.mat-form-field {
+  width: 91%;
+}
+
+.mat-form-field-infix{
+  width: 100% !important;
+}
+
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eeeeee; }
+
+.mat-form-field {
+  vertical-align: middle !important;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+.container:before, .container:after {
+  content: " ";
+  display: table; }
+.container:after {
+  clear: both; }
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px; } }
+@media (min-width: 992px) {
+  .container {
+    width: 970px; } }
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px; } }
