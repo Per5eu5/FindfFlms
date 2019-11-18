@@ -60,6 +60,5 @@ export class SearchService {
         });
       })
     );
-      // .subscribe(data => console.log('33333', data));
   }
 }

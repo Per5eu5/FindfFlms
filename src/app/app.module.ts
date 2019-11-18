@@ -24,7 +24,6 @@ import { SearchBoxComponent } from './search/search-box.component';
 import {SearchResultComponent} from './search/search-result.component';
 
 import { RouterModule, Routes } from '@angular/router';
-import {HelloComponent} from './search/hello.component';
 import {DetailComponent} from './search/detail.component';
 
 const routes: Routes = [
@@ -39,7 +38,6 @@ const routes: Routes = [
     SearchComponent,
     SearchBoxComponent,
     SearchResultComponent,
-    HelloComponent,
     DetailComponent
   ],
   imports: [

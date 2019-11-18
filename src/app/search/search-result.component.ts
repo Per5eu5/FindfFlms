@@ -1,8 +1,5 @@
 import {Component, OnInit, Input} from '@angular/core';
-import {Router, ActivatedRoute} from '@angular/router';
-
 import {SearchResult} from './search-result.model';
-import { SearchService } from './search.service';
 
 @Component({
   selector: 'app-search-result',
@@ -11,9 +8,7 @@ import { SearchService } from './search.service';
 export class SearchResultComponent implements OnInit {
   @Input() result: SearchResult;
 
-  constructor(private service: SearchService,
-              private  router: Router,
-              private  route: ActivatedRoute) { }
+  constructor() { }
 
   ngOnInit(): void { }
 }
